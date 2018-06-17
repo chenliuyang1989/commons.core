@@ -1,7 +1,8 @@
-package com.lumi.aiot.common.utils;
+package com.lumi.aiot.common.customerThread;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
 import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicInteger;
 
