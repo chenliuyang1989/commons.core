@@ -13,6 +13,12 @@ public class ThreadFactoryImpl implements ThreadFactory {
 
     private final String threadNamePrefix;
 
+
+    private ThreadFactoryImpl()
+    {
+        threadNamePrefix = "defaultThreadFactory";
+    }
+
     /**
      * 自定义线程前缀
      * @param threadNamePrefix
